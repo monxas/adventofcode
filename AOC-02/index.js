@@ -32,7 +32,7 @@ function firstPart(lines) {
                 break;
         }
     });
-    console.log(`depth: ${depth}, forward: ${forward}, result: ${depth * forward}`);
+    console.log(`depth: ${depth}, forward: ${forward}, result: ${depth * forward} 🎉`);
 }
 
 function secondPart(lines) {
@@ -55,10 +55,8 @@ function secondPart(lines) {
                 aim += +rule[1];
                 break;
         }
-    console.log(`depth: ${depth}, forward: ${forward}, aim: ${aim}`);
-
     });
-    console.log(`depth: ${depth}, forward: ${forward}, result: ${depth * forward}`);
+    console.log(`depth: ${depth}, forward: ${forward}, result: ${depth * forward} 🎉`);
 
 }
 getData();
