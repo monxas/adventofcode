@@ -1,6 +1,5 @@
 var fs = require('graceful-fs')
 
-
 // fetch the data from the API
 function getData() {
    
